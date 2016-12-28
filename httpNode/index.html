@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NBAcount statistic</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="main-hits">
+	<div class="main-hit">
+	<h2>road</h2>
+	<div class="label"><label id="roadPerc">0%</label></div>
+	<div>
+		<button  onclick="addRoadWin()">Win</button>
+		<button class="loose" onclick="addRoadLoose()">Loose</button>
+	</div>
+	</div>
+	<div class="main-hit">
+	<h2>home</h2>
+	<div class="label"><label id="homePerc">0%</label></div>
+	<div>
+		<button onclick="addHomeWin()">Win</button>
+		<button class="loose" onclick="addHomeLoose()">Loose</button>
+	</div>
+
+	</div>
+	<div class="main-hit">
+	<h2>total</h2>
+	<div class="label"><label id="totalPerc">0%</label></div>
+	<div>
+		<button onclick="addTotalWin()">Win</button>
+		<button class="loose" onclick="addTotalLoose()">Loose</button>
+	</div>
+
+	</div>
+	<div class="main-hit">
+	<h2>odd</h2>
+	<div class="label"><label id="oddPerc">0%</label></div>
+	<div>
+		<button onclick="addOddWin()">Win</button>
+		<button class="loose" onclick="addOddLoose()">Loose</button>
+	</div>
+
+	</div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
